@@ -13,7 +13,7 @@ export default function RootLayout({
     <main className="flex h-screen w-full font-inter">
       <Sidebar user={loggedIn} />
 
-      <div className="felx size-full flex-col">
+      <div className="flex size-full flex-col">
         <div className="root-layout">
           <Image src="/icons/logo.svg" alt="menu icon" width={30} height={30} />
           <div>

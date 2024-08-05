@@ -9,7 +9,7 @@ const BankCard = ({
   showBalance = true,
 }: CreditCardProps) => {
   return (
-    <div className="felx flex-col">
+    <div className="flex flex-col">
       <Link href="/" className="bank-card">
         <div className="bank-card_content">
           <div>
